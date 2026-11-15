@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background: #302653;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    font-family: Arial, sans-serif;
+}
+
+header button {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #E9E4FF;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+header button:hover {
+    background: rgba(165, 180, 252, 0.12);
+    color: #A5B4FC;
+    border-color: rgba(165, 180, 252, 0.2);
+}

@@ -1,0 +1,89 @@
+main {
+    font-family: Arial, sans-serif;
+}
+
+.ProfileForm img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10%;
+    flex-shrink: 0;
+}
+
+.ProfileForm {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 12px 35px rgba(35, 20, 75, 0.2);   
+    border-radius: 16px;
+    background: #F8F7FF;
+    padding: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 10%;
+}
+
+.bookingsTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: #F8F7FF;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(35, 20, 75, 0.12);
+}
+
+.bookingsTable th,
+.bookingsTable td {
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid #e3def5;
+}
+
+.bookingsTable th {
+    background: #302653; 
+    color: white;
+}
+
+.bookingsTable tbody tr:hover {
+    background: #ece7ff;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 140px;
+    flex-shrink: 0;
+}
+
+.buttons button,
+.bookingsTable button {
+    padding: 11px 16px;
+    border: none;
+    border-radius: 9px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.editButton {
+    background: #E8E2FF;
+    color: #302653;
+}
+
+.editButton:hover {
+    background: #D8CEFF;
+}
+
+.deleteButton,
+.bookingsTable button {
+    background: #FDE8E8;
+    color: #B42318;
+}
+
+.deleteButton:hover,
+.bookingsTable button:hover {
+        background: #FBCACA;
+}

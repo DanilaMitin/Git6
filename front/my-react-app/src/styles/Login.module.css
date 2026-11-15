@@ -1,0 +1,103 @@
+.loginPage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);}
+
+.loginPage input[type = "password"], input[type = "email"]{
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 300px;
+}
+
+.loginPage form {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 12px 35px rgba(35, 20, 75, 0.2);   
+    border-radius: 16px;
+    background: #F8F7FF;
+    padding: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+
+}
+
+
+.loginPage label {
+    color: #817994;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.loginPage input {
+    margin: 6px;
+    border-radius: 8px;
+    padding: 12px;
+    background: #FFFFFF;
+    border: 1px solid #DED9F0;
+    color: #625B79;
+    font-size: 15px;
+    outline: none;
+}
+
+.loginForm input::placeholder {
+    color: #AAA4BC;
+}
+
+.loginForm input:focus {
+    outline: none;
+    border-color: #A69AE8;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.10);
+    outline: none;
+}
+
+.loginPage input[type="submit"] {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.loginPage input[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+.loginPage button {
+    margin: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    cursor:pointer;
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.loginPage button:hover {
+    background: rgba(255, 255, 255, 0.28);
+}
+
+.message {
+    color: #FFE0E6;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 224, 230, 0.25);
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-top: 16px;
+    text-align: center;
+}
